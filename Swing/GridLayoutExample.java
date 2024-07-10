@@ -1,13 +1,14 @@
+package Swing;
 import java.awt.*;
 import javax.swing.*;
 
-public class FlowLayoutExample {
+public class GridLayoutExample {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("FlowLayout Example");
+        JFrame frame = new JFrame("GridLayout Example");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 200);
 
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(new GridLayout(2, 2));
 
         frame.add(new JButton("Button 1"));
         frame.add(new JButton("Button 2"));
