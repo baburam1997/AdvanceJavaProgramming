@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SignupPage",
+            "request": "launch",
+            "mainClass": "SignupPage",
+            "projectName": "AdvanceJavaProgramming_4a54a6ae"
+        },
+        {
+            "type": "java",
+            "name": "LoginPage",
+            "request": "launch",
+            "mainClass": "LoginPage",
+            "projectName": "AdvanceJavaProgramming_4a54a6ae"
+        },
+        {
+            "type": "java",
+            "name": "MVCExample",
+            "request": "launch",
+            "mainClass": "MVCExample",
+            "projectName": "AdvanceJavaProgramming_4a54a6ae"
+        },
+        {
+            "type": "java",
             "name": "BorderLayoutExample",
             "request": "launch",
             "mainClass": "BorderLayoutExample",
