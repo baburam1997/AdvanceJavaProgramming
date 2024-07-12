@@ -1,4 +1,4 @@
-package Swing;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +7,7 @@ import java.awt.event.*;
 public class LoginPage {
     private JFrame frame;
     private JPanel panel;
-    private JLabel titleLabel, usernameLabel, passwordLabel;
+    private JLabel titleLabel, usernameLabel, passwordLabel, firstName, lastName;
     private JTextField usernameField;
     private JPasswordField passwordField;
     private JButton loginButton, signupButton;
@@ -23,14 +23,14 @@ public class LoginPage {
         titleLabel = new JLabel("Login Page");
         titleLabel.setBounds(150, 20, 100, 20);
 
-        usernameLabel = new JLabel("Username:");
-        usernameLabel.setBounds(50, 70, 80, 20);
+        firstName = new JLabel("Username:");
+        firstName.setBounds(50, 70, 80, 20);
 
         usernameField = new JTextField();
         usernameField.setBounds(140, 70, 150, 20);
 
-        passwordLabel = new JLabel("Password:");
-        passwordLabel.setBounds(50, 110, 80, 20);
+        lastName = new JLabel("Password:");
+        lastName.setBounds(50, 110, 80, 20);
 
         passwordField = new JPasswordField();
         passwordField.setBounds(140, 110, 150, 20);
@@ -61,9 +61,9 @@ public class LoginPage {
         });
 
         panel.add(titleLabel);
-        panel.add(usernameLabel);
+        panel.add(firstName);
         panel.add(usernameField);
-        panel.add(passwordLabel);
+        panel.add(lastName);
         panel.add(passwordField);
         panel.add(loginButton);
         panel.add(signupButton);
