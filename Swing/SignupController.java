@@ -41,12 +41,9 @@ public class SignupController {
     }
 
     public static void main(String[] args) {
-        // Create the model, view, and controller
         UserModel model = new UserModel();
         SignupView view = new SignupView();
         SignupController controller = new SignupController(model, view);
-
-        // Show the view
         view.setVisible(true);
     }
 }
