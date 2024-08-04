@@ -1,5 +1,5 @@
 CREATE  DATABASE IF NOT EXISTS library_db;
--- Users Table
+-- Users Table==
 
 CREATE TABLE Users (
     UserID INT PRIMARY KEY,

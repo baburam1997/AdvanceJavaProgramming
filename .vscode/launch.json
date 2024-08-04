@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MySqlConnector",
+            "request": "launch",
+            "mainClass": "MySqlConnector",
+            "projectName": "AdvanceJavaProgramming_4a54a6ae"
+        },
+        {
+            "type": "java",
             "name": "SignupPage",
             "request": "launch",
             "mainClass": "SignupPage",
