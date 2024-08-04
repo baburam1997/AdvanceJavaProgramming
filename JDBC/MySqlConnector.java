@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 
 public class MySqlConnector {
         // JDBC URL, username, and password of MySQL server
-        private static final String JDBC_URL = "jdbc:mysql://<host name>:<port name>/<database name>";
-        private static final String JDBC_USER = "<user name>";
-        private static final String JDBC_PASSWORD = "<password>";
+        private static final String JDBC_URL = "jdbc:mysql://localhost:3306/library_db";
+        private static final String JDBC_USER = "babu1234";
+        private static final String JDBC_PASSWORD = "babu1234";
     
         public static Connection mysqlConnection(String[] args) {
             try {
